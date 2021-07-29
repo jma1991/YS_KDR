@@ -122,6 +122,8 @@ Compare ligand-receptor signaling between conditions:
 ```{r, fig.width = 15, fig.height = 15, results = "asis"}
 ids <- levels(all@idents$joint)
 
+ids <- c("1", "2", "6", "7", "8", "9") # Clusters 3 to 5 cause an obscure error!
+
 for (i in ids) {
 
   cat("####", i, "\n")
