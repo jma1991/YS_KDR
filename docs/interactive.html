@@ -512,16 +512,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRtreee28b8e0122ba8d75c4aa6e3dbdf0033014b6ad5dtargetblanke28b8e0a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jma1991/YS_KDR/tree/e28b8e0122ba8d75c4aa6e3dbdf0033014b6ad5d" target="_blank">e28b8e0</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRtree268aaf0065d328389c16f062c813eaa59a24085ftargetblank268aaf0a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jma1991/YS_KDR/tree/268aaf0065d328389c16f062c813eaa59a24085f" target="_blank">268aaf0</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRtreee28b8e0122ba8d75c4aa6e3dbdf0033014b6ad5dtargetblanke28b8e0a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRtree268aaf0065d328389c16f062c813eaa59a24085ftargetblank268aaf0a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/jma1991/YS_KDR/tree/e28b8e0122ba8d75c4aa6e3dbdf0033014b6ad5d" target="_blank">e28b8e0</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/jma1991/YS_KDR/tree/268aaf0065d328389c16f062c813eaa59a24085f" target="_blank">268aaf0</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -580,6 +580,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/jma1991/YS_KDR/blob/268aaf0065d328389c16f062c813eaa59a24085f/analysis/interactive.Rmd" target="_blank">268aaf0</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-30
+</td>
+<td>
+Build
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/jma1991/YS_KDR/acaa93bf0a3e163376a5b93a45786d5bae122cbd/docs/interactive.html" target="_blank">acaa93b</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-30
+</td>
+<td>
+Build
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -738,24 +772,23 @@ iSEE(sce, appTitle = &quot;YS_KDR&quot;, colormap = ecm)</code></pre>
 <pre class="r"><code>deployApp(appDir = &quot;shiny/sample&quot;, appName = &quot;YS_KDR&quot;, appTitle = &quot;YS_KDR&quot;, launch.browser = FALSE, forceUpdate = TRUE)</code></pre>
 <pre><code>Preparing to deploy application...DONE
 Uploading bundle for application: 4439983...DONE
-Deploying bundle: 4871963 for application: 4439983 ...
-Waiting for task: 981584414
-  building: Processing bundle: 4871963
+Deploying bundle: 4871982 for application: 4439983 ...
+Waiting for task: 981587146
   building: Parsing manifest
-  building: Building image: 5584188
+  building: Building image: 5584207
   building: Installing system dependencies
   building: Fetching packages
   building: Installing packages
   building: Installing files
-  building: Pushing image: 5584188
+  building: Pushing image: 5584207
   deploying: Starting instances
   rollforward: Activating new instances
-  unstaging: Stopping old instances
+  terminating: Stopping old instances
 Application successfully deployed to https://jashmore.shinyapps.io/YS_KDR/</code></pre>
 <p>Allocate more memory to the iSEE application:</p>
-<pre class="r"><code>configureApp(appName = &quot;YS_KDR&quot;, appDir = &quot;shiny/sample&quot;, size = &quot;large&quot;)</code></pre>
+<pre class="r"><code>configureApp(appName = &quot;YS_KDR&quot;, appDir = &quot;shiny/sample&quot;, size = &quot;xlarge&quot;)</code></pre>
 <pre><code>Preparing to deploy application...DONE
-Waiting for task: 981585495
+Waiting for task: 981588535
   deploying: Starting instances
   rollforward: Activating new instances
   terminating: Stopping old instances
