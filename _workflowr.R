@@ -51,4 +51,4 @@ system("git add docs/.nojekyll")
 # Step 6: Commit and push files
 
 system("git commit -m 'Build'")
-system("git push origin main")
+system("git push origin master")
