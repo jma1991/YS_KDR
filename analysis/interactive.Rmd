@@ -158,7 +158,7 @@ deployApp(appDir = "shiny/sample", appName = "YS_KDR", appTitle = "YS_KDR", laun
 Allocate more memory to the iSEE application:
 
 ```{r}
-configureApp(appName = "YS_KDR", appDir = "shiny/sample", size = "large")
+configureApp(appName = "YS_KDR", appDir = "shiny/sample", size = "xlarge")
 ```
 
 ## Summary
