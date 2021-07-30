@@ -146,19 +146,19 @@ ecm <- ExperimentColorMap(
 )
 
 # Create iSEE object
-iSEE(sce, appTitle = "EB_KDR", colormap = ecm)
+iSEE(sce, appTitle = "YS_KDR", colormap = ecm)
 ```
 
 Deploy the iSEE application to the shiny server:
 
 ```{r}
-deployApp(appDir = "shiny/sample", appName = "EB_KDR", appTitle = "EB_KDR", launch.browser = FALSE, forceUpdate = TRUE)
+deployApp(appDir = "shiny/sample", appName = "YS_KDR", appTitle = "YS_KDR", launch.browser = FALSE, forceUpdate = TRUE)
 ```
 
 Allocate more memory to the iSEE application:
 
 ```{r}
-configureApp(appName = "EB_KDR", appDir = "shiny/sample", size = "xxlarge")
+configureApp(appName = "YS_KDR", appDir = "shiny/sample", size = "large")
 ```
 
 ## Summary
